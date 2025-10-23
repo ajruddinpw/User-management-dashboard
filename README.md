@@ -52,23 +52,30 @@ The app will run at http://localhost:5173
 
 🧱 Project Structure
 user-management-dashboard/
+├── node_modules
+├── screenshots
+│       └── home_page.png
 ├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx
-│   │   ├── SearchBar.jsx
-│   │   └── UserCard.jsx
+│   ├── api/
+│   │   └── userService.js
+│   │    
 │   ├── pages/
+│   │   ├── AddUser.jsx
 │   │   ├── Home.jsx
-│   │   ├── UserDetails.jsx
-│   │   └── AddUser.jsx
+│   │   └── UserDetails.jsx
+│   ├── router/
+│   │      └── AppRouter.jsx
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
-├── public/
+├── .gitignore
+├── index.html
+├── package-lock.json
 ├── package.json
+├── postcss.config.cjs
+├── README.md 
 ├── tailwind.config.js
-├── vite.config.js
-└── README.md
+└── vite.config.js
 
 💡 Bonus Features (Ideas)
 
