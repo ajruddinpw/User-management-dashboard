@@ -34,7 +34,7 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/user-management-dashboard.git
+git clone https://github.com/ajruddinpw/User-management-dashboard/blob/main/README.md
   
   2️⃣ Navigate into the folder
 cd user-management-dashboard
